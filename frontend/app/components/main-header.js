@@ -174,7 +174,7 @@ export default function MainHeader() {
                 e.currentTarget.style.color = "#6b7280";
               }}
             >
-              <Search size={20} />
+              <Search size={25}/>
             </button>
 
             {/* Avatar */}
@@ -182,8 +182,8 @@ export default function MainHeader() {
               href="/profile"
               aria-label="Profile"
               style={{
-                width: "36px",
-                height: "36px",
+                width: "30px",
+                height: "30px",
                 borderRadius: "50%",
                 background: "linear-gradient(135deg, #fb923c, #f97316)",
                 display: "flex",
@@ -205,7 +205,7 @@ export default function MainHeader() {
                   "0 4px 12px rgba(249,115,22,0.3)";
               }}
             >
-              <User size={18} color="white" />
+              <User size={18} color="white" style={{ width: "18px", height: "18px" }} />
             </Link>
 
             {/* Mobile menu toggle */}
@@ -243,16 +243,7 @@ export default function MainHeader() {
                 position: "relative",
               }}
             >
-              <Search
-                size={18}
-                style={{
-                  position: "absolute",
-                  left: "1rem",
-                  top: "50%",
-                  transform: "translateY(-50%)",
-                  color: "#9ca3af",
-                }}
-              />
+              <Search size={20}  style={{ position: "absolute", left: "1rem", top: "50%", transform: "translateY(-50%)", color: "#9ca3af", width: "20px", height: "20px"   }} />  
               <input
                 autoFocus
                 type="text"
