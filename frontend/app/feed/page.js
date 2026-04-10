@@ -1,7 +1,7 @@
-export default function CommunityPage() {
+export default function FeedPage() {
   return (
-    <div className="community-page">
-      <h1>Community</h1>
+    <div className="feed-page">
+      <h1>Feed</h1>
       <p>
         Join our food-loving community to share and discover delicious meals.
       </p>

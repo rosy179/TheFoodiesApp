@@ -122,8 +122,7 @@ export default function Home() {
                   maxWidth: "480px",
                 }}
               >
-                Khám phá thế giới ẩm thực đầy màu sắc với những công thức dễ
-                thương và nhà hàng tuyệt vời! 🍰✨
+                Explore the colorful world of food with delicious recipes and great restaurants! 🍰✨
               </p>
 
               <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
@@ -156,7 +155,7 @@ export default function Home() {
                   }}
                 >
                   <Coffee size={20} />
-                  Xem Công Thức
+                  View Recipes
                 </Link>
 
                 <Link
@@ -182,7 +181,7 @@ export default function Home() {
                     e.currentTarget.style.boxShadow = "none";
                   }}
                 >
-                  Khám Phá Ngay
+                  Explore Now
                 </Link>
               </div>
             </motion.div>
@@ -287,10 +286,10 @@ export default function Home() {
                 fontWeight: "700",
               }}
             >
-              Món Ưa Thích ♡
+              Favourite Dishes
             </h2>
             <p style={{ color: "#4b5563", fontSize: "1.05rem" }}>
-              Những món ăn được yêu thích nhất
+              The most popular dishes
             </p>
           </motion.div>
 
@@ -441,7 +440,7 @@ export default function Home() {
               Snack Cafe ☕
             </h2>
             <p style={{ color: "#4b5563", fontSize: "1.05rem" }}>
-              Những món ăn nhẹ thơm ngon
+              Delicious snacks
             </p>
           </motion.div>
 
@@ -573,7 +572,7 @@ export default function Home() {
                   "0 8px 25px rgba(249,115,22,0.35)";
               }}
             >
-              Xem Tất Cả Menu →
+              View All Menu →
             </Link>
           </div>
         </div>
@@ -589,7 +588,6 @@ export default function Home() {
       >
         <div
           style={{
-            maxWidth: "900px",
             margin: "0 auto",
             padding: "0 1.5rem",
             textAlign: "center",
@@ -602,9 +600,9 @@ export default function Home() {
           >
             <div style={{ marginBottom: "1.5rem" }}>
               <Sparkles
-                size={60}
+                size={30}
                 color="#db2777"
-                style={{ display: "inline-block" }}
+                style={{ display: "inline-block", width: 80, height: 80 }}
               />
             </div>
             <h2
@@ -613,10 +611,10 @@ export default function Home() {
                 fontSize: "clamp(2.5rem, 6vw, 4rem)",
                 color: "#db2777",
                 marginBottom: "1.5rem",
-                fontWeight: "700",
+                fontWeight: "300",
               }}
             >
-              Chia Sẻ Niềm Đam Mê
+              Share Your Sweet Moments
             </h2>
             <p
               style={{
@@ -626,8 +624,7 @@ export default function Home() {
                 lineHeight: "1.75",
               }}
             >
-              Tham gia cộng đồng yêu ẩm thực và chia sẻ những khoảnh khắc ngọt
-              ngào của bạn! 🥰
+              Join the foodie community and share your sweet moments! 🥰
             </p>
             <Link
               href="/community"
@@ -660,10 +657,11 @@ export default function Home() {
                   display: "flex",
                   alignItems: "center",
                   gap: "0.5rem",
+                  width: "100%",
                 }}
               >
-                <Heart size={24} color="#db2777" fill="#db2777" />
-                Tham Gia Ngay
+                <Heart size={20} color="#db2777" fill="#db2777" style={{ width: 20, height: 20 }} />
+                Join Now
               </span>
             </Link>
           </motion.div>
